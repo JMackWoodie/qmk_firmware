@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |      | DTL  | DTR  |  {   |  }   | PgUp | Home |   _  |  $   |   %  |   ^  |  |   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |      |      |  [   |  ]   | PgDn |  End |   =  |  !   |   @  |   #  |      |
+ * |      | SCL  | SCR  |  [   |  ]   | PgDn |  End |   =  |  !   |   @  |   #  |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |      |      |      |      |             |      | Left | Down |  Up  | Rght |
  * `-----------------------------------------------------------------------------------'
@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TILD,             KC_EXLM,               KC_AT, KC_HASH,  KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,  KC_DEL,
   KC_TILD,             _______,             _______, KC_LPRN, KC_RPRN, _______, _______, _______, KC_AMPR, KC_ASTR, _______,  KC_DEL,
   _______, LCTL(LGUI(KC_LEFT)), LCTL(LGUI(KC_RGHT)), KC_LCBR, KC_RCBR, KC_PGUP, KC_HOME, KC_UNDS,  KC_DLR, KC_PERC, KC_CIRC, KC_PIPE,
-  _______,             _______,             _______, KC_LBRC, KC_RBRC, KC_PGDN,  KC_END,  KC_EQL, KC_EXLM,  KC_AT,  KC_HASH, _______,
+  _______,    LALT(LSFT(KC_Z)),    LALT(LSFT(KC_X)), KC_LBRC, KC_RBRC, KC_PGDN,  KC_END,  KC_EQL, KC_EXLM,  KC_AT,  KC_HASH, _______,
   _______,             _______,             _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT
 ),
 
